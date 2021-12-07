@@ -29,3 +29,9 @@ hooks:
     - location: codedeploy/validate_service.sh
       timeout: 180
 
+artifacts:
+  files:
+    - '**/*'
+  base-directory: base_dir
+  name: build-artifact-name
+  discard-paths: no
