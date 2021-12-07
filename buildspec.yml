@@ -32,6 +32,6 @@ hooks:
 artifacts:
   files:
     - '**/*'
-  base-directory: abc
-  name: build-artifact-name
-  discard-paths: no
+#  base-directory: abc
+#  name: build-artifact-name
+#  discard-paths: no
